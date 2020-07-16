@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.square {
+    @apply border;
+}
+
+.square::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}

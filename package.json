@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.4",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss-pseudo-elements": "^1.1.2"
+  }
+}
